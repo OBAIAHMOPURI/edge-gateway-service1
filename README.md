@@ -1,14 +1,38 @@
 # Edge Gateway Service 1
 
+## Project Overview
+
+Edge Gateway Service 1 is a separate space for exploring another possible front door to an application portfolio. It can support a discussion about an alternative approach once the project owner defines what should be different.
+
+**Current stage:** a documented concept, not a running gateway or a confirmed replacement for the other gateway. The number in its name does not establish a newer version.
+
+## Business Use Cases
+
+These are possible future uses to discuss, not features available today:
+
+- **Comparing options:** outline a second approach and agree how the team would compare it with the other gateway concept.
+- **Decision workshops:** capture the audience, responsibilities, and trade-offs of keeping two approaches separate.
+- **Scope planning:** decide whether this repository should remain an experiment or take on a distinct role, through a separate owner decision.
+
+## Team Onboarding Checklist
+
+- [ ] Read the current-stage note and understand that no gateway is running.
+- [ ] Review [Edge Gateway Service](https://github.com/OBAIAHMOPURI/edge-gateway-service) without assuming the two projects are connected.
+- [ ] Write down the question this separate concept should answer before discussing differences.
+- [ ] Ask the owner to confirm the relationship between the two repositories; do not rename or retire either as part of onboarding.
+- [ ] Read the [contribution guide](CONTRIBUTING.md), agree a project contact, and browse [Related Projects](#related-projects).
+
+## Existing Project Details
+
 > **Status: documentation-first scaffold; not a runnable service.** Static inspection of `main` on 13 November 2026 found no application source, dependency manifest, automated tests, container image definition, or deployment configuration. Proposed behavior below must not be read as implemented functionality.
 
 ## Overview
 
 A separate gateway candidate that can hold an alternative ingress design or experiment after the owner defines its scope. The suffix does not establish a version, deployment, fork relationship, or replacement.
 
-### Verified repository state
+### Initial audit and documentation history
 
-Only a title-only README existed; no application source, build manifest, tests, or deployment configuration was present. This documentation pass adds a README and architecture/setup guides only. It does not install dependencies, implement APIs, provision infrastructure, establish integrations, or deploy an application.
+Only a title-only README existed; no application source, build manifest, tests, or deployment configuration was present. The first documentation pass added the README and architecture/setup guides. Contribution and interface guides were added later; this plain-English refresh updates the README only. It does not install dependencies, implement APIs, provision infrastructure, establish integrations, or deploy an application.
 
 ## Architecture notes
 
@@ -44,7 +68,11 @@ There is no supported install/build/run command, required runtime version, envir
 
 Use synthetic data and sandbox dependencies during development. Never commit credentials, tokens, production payloads, or private operational records. Implement least-privilege access, schema validation, structured redacted diagnostics, bounded timeouts/retries, and tests before treating the service as usable. No build, runtime, performance, security, or integration test has been executed as part of this documentation pass.
 
-## Network Ecosystem
+## Related Projects
+
+Explore the seven other projects in this account. Each link opens that project's main page so you can compare its purpose and stage. These are browsing links, not live connections between applications.
+
+### Network Ecosystem
 
 This is a navigation network across all eight repositories owned by this account, audited on 13 November 2026. Links indicate sibling projects, **not implemented integrations**. The Java apps are independent learning projects; the six service repositories have no application code.
 
